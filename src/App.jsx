@@ -1,9 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { Routes, Route } from 'react-router'
 import './App.css'
-import Home from './pages/Home'
-import Users from './pages/Users'
-import UserProfile from './pages/UserProfile'
-import Navbar from './components/Navbar'
+import Home from './pages/Home.jsx'
+import Users from './pages/Users.jsx'
+import UserProfile from './pages/UserProfile.jsx'
+import Navbar from './components/Navbar.jsx'
 
 function App() {
   return (
