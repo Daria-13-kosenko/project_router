@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home.jsx'
 import Users from './pages/Users.jsx'
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/home"
+          path="/"
           element={
             <h1>
               <Home />
@@ -27,7 +27,7 @@ function App() {
           }
         />
         <Route
-          path="/UserProfile"
+          path="/user/:userId"
           element={
             <h1>
               <UserProfile />
